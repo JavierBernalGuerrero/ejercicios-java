@@ -1,0 +1,11 @@
+Ejercicio 01 - Mostrar Variables numericas y operaciones basicas
+
+Ejercicio 02 - Mostrar Variables de caracteres
+
+Ejercicio 03 - Mostrar Variables de caracteres y numericos combinados
+
+Ejercicio 04 - |SIN INTRODUCIR DATOS|Conversor de euros a pesetas
+
+Ejercicio 05 - |SIN INTRODUCIR DATOS|Conversor de pesetas a euros
+
+Ejercicio 06 - Factura | Calculos basico con variables
