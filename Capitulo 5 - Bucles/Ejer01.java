@@ -11,7 +11,7 @@ public class Ejer01 {
     
     int resultado = 0;
     
-    for (int incremento = 1; resultado <= 100; resultado = 5 * incremento++) {
+    for (int incremento = 1; resultado <= 100; resultado = 5 * incremento++) {        // en un bucle for, no se puede cambiar la propia variable
       
       System.out.println(resultado);
     }

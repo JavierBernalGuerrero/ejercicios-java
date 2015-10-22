@@ -19,17 +19,22 @@ public class Ejer07 {
     do {
       System.out.print("Introduce la combinacion (4 cifras): ");
       codigo = Integer.parseInt(System.console().readLine());
-
+      
+      
+          // CONTROLAR VALORES NEGATIVOS Y SUPERIOR O INFERIOR A 4 CIFRAS
+      
+      
       if (codigo != 1111) {
-        error++;                                   // Control de intentos
+        System.out.println("La combinación introducida es incorrecta.");
+        error++;                                                          // Control de intentos
         if (error == 4) {
           System.out.println("Lo siento, esa no es la combinación.");
         }
       } else {
         System.out.println("La caja fuerte se ha abierto satisfactoriamente.");
         error = 5;
-
       }
     } while (error < 4);
+    
   }
 }

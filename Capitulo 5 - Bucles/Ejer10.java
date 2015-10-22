@@ -11,24 +11,20 @@ public class Ejer10 {
 
     System.out.println("Media de 3 numero enteros");
     System.out.println("·························");
-    int valor1 = 0;
-    int valor2 = 0;
-    int valor3 = 0;
+    int cifra = 0;
+    int suma = 0;
+    int cantidad = 0;
 
-    do {
+    while (cifra >= 0) {
       System.out.print("Introduce un numero: ");
-      valor1 = Integer.parseInt(System.console().readLine());
-      
-      System.out.print("Introduce un numero: ");
-      valor2 = Integer.parseInt(System.console().readLine());
-      
-      System.out.print("Introduce un numero: ");
-      valor3 = Integer.parseInt(System.console().readLine());
+      cifra = Integer.parseInt(System.console().readLine());
 
-      System.out.println("La media de las 3 notas es: " + (valor1 + valor2 + valor3) /3);
-      System.out.println("·······························");
-      
-    } while ((valor1 > 0) && (valor2 > 0) && (valor3 > 0));
-    System.out.println("Te he pedido un numero entero. Adios.");
+      if (cifra >= 0) {
+        suma += cifra;
+        cantidad++;
+      }
+    }
+    System.out.println("La media de las notas es: " + suma / cantidad);
+
   }
 }
