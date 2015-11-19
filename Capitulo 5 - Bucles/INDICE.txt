@@ -1,0 +1,60 @@
+Ejercicio 01 - Multiplos de 5 de 0 a 100	FOR
+
+Ejercicio 02 - Multiplos de 5 de 0 a 100	while
+
+Ejercicio 03 - Multiplos de 5 de 0 a 100	do-while
+
+Ejercicio 04 - Mostrar numeros entre el 320 y el 160 de 20 en 20 hacia atras FOR
+
+Ejercicio 05 - Mostrar numeros entre el 320 y el 160 de 20 en 20 hacia atras while
+
+Ejercicio 06 - Mostrar numeros entre el 320 y el 160 de 20 en 20 hacia atras do-while
+
+Ejercicio 07 - Caja Fuerte
+
+Ejercicio 08 - Tabla de multiplicar
+
+Ejercicio 09 - Contar los digitos de un numero introducido
+
+Ejercicio 10 - Calcular media de numeros introducidos
+
+Ejercicio 11 - Calcular el cuadrado y el cubo de un numero introducido
+
+*Ejercicio 12 - series Fibonacci
+
+Ejercicio 13 - Diferenciar entre numeros positivos y negativos introducidos por teclado
+
+Ejercicio 14 - Calcular una potencia, introduciendo la base y el exponente
+
+Ejercicio 15 - Mostrar bases y exponentes secuenciales hasta alcanzar los valores introducidos. Ej: 2 elevado a 5 = 2^1 2^2 2^3 2^4 2^5
+
+**Ejercicio 16 - Calcular numeros primos
+
+Ejercicio 17 - sumar una secuencia de numeros, solo introduciendo uno por teclado
+
+Ejercicio 18 - Incrementar de 7 en 7 un numero comprendido entre dos valores introducidos por teclado
+
+**Ejercicio 19 - Pintar una piramide pidiendo una altura
+
+**Ejercicio 20 - Pintar una piramide hueca pidiendo una altura
+
+Ejercicio 21 - Calculos varios con numeros introducidos por teclado (media impares, mayor de los pares, cuenta de numeros introducidos)
+
+**Ejercicio 22 - TODOS los numeros primos entre 2 y 100
+
+Ejercicio 23 - Introducir una serie de numeros mientras su suma no supere un limite (10.000)
+
+**Ejercicio 24 - Piramide Numerica
+
+**Ejercicio 25 - Darle la vuelta a un numero introducido por teclado
+
+**Ejercicio 26 - Calcular la posicion de un digito en un numero introducido
+
+Ejercicio 27 - Calculos varios entre 1 y un numero introducido (suma de los multiplos de 3, contar numeros generados y mostrarlos)
+
+Ejercicio 28 - Calcular el factorial de un numero *************************************************************
+
+Ejercicio 29 - mostrar todos los numeros divisible entre 2 valores introducidos por teclado
+
+Ejercicio 30 - Calcular las horas transcurridas entre 2 dias de la semana introducido por teclado
+

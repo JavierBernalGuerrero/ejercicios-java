@@ -1,0 +1,26 @@
+[ARRAYS de una Dimension]
+·····································
+
+Ejercicio 01 - Definir y mostrar valores numericos en un array
+
+Ejercicio 02 - Definir y mostrar valores de caracteres en un array
+
+Ejercicio 03 - Orden inverso de numeros introducidos por teclado
+
+Ejercicio 04 - Mostrar 3 arrays. El primero un numero, 2ºarray el cuadrado del 1ºarray y el 3ºarray el cubo del 1ºarray
+
+*Ejercicio 05 -Pedir numeros por teclado y decir cual es el maximo y el minimo
+
+*Ejercicio 06 - Desordenar el array en orden ascendente (subir una posicion a todos los valores del array, dentro del array)
+
+Ejercicio 07 - Mostrar un array numerico. Cambiar 1 valor por peticion de usuario
+
+Ejercicio 08 - Temperaturas medias [INTERESANTE]
+
+Ejercicio 09 - Definir como par o impar numeros introducidos por teclado y almacenados dentro de un array
+
+Ejercicio 10 - 
+
+*Ejercicio 11 - 
+
+*Ejercicio 12 - 
