@@ -52,7 +52,7 @@ Ejercicio 23 - Introducir una serie de numeros mientras su suma no supere un lim
 
 Ejercicio 27 - Calculos varios entre 1 y un numero introducido (suma de los multiplos de 3, contar numeros generados y mostrarlos)
 
-Ejercicio 28 - Calcular el factorial de un numero *************************************************************
+Ejercicio 28 - Calcular el factorial de un numero
 
 Ejercicio 29 - mostrar todos los numeros divisible entre 2 valores introducidos por teclado
 

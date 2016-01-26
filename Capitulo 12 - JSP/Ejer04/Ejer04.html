@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ejercicio 04</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      legend {
+        background-color: whitesmoke;
+      }
+      fieldset {
+        background-color: #cb3030;
+        margin: auto;
+        width: 50%;
+      }
+      .notas {
+        width: 210px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <form method="post" action="Ejer04.jsp">
+      <fieldset>
+        <legend>Notas:</legend>
+        <table style="margin: auto;">
+          <tr>
+            <td><label for="nombre">1º Nota:</label></td>
+            <td><input class="notas" type="number" name="nota1" step="0.1" placeholder="Introduce tu nota, no mientas"></td>
+          </tr>
+          <tr>
+            <td><label for="nombre">2º Nota:</label></td>
+            <td><input class="notas" type="number" name="nota2" step="0.1" placeholder="Introduce tu nota, no mientas"></td>
+          </tr>
+          <tr>
+            <td><label for="nombre">3º Nota:</label></td>
+            <td><input class="notas" type="number" name="nota3" step="0.1" placeholder="Introduce tu nota, no mientas"></td>
+          </tr>
+          <tr style="text-align: center;">
+            <td colspan="2"><input name="enviarNotas" type="submit" value="Enviar"></td>
+          </tr>
+
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

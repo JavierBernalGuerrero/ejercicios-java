@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ejercicio 09</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: #234089;
+      }
+      fieldset {
+        border-color: black;
+        background-color: #cb3030;
+        margin: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 style="text-align: center;">Vamos a crear una piramide. Introduce su altura.</h2>
+    <h3 style="text-align: center;">Minimo 1, Maximo 25.</h3>
+    <form method="post" action="Ejer09.jsp">
+      <fieldset>
+        <table style="margin: auto;">
+          <tr>
+            <td><input type="number" name="alturaIntroducida" min="1" max="25" placeholder="Altura.."></td>
+          </tr>
+          <tr style="text-align: center;">
+            <td><input name="enviarResultado" type="submit" value="Enviar"></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
