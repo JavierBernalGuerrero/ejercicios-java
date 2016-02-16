@@ -16,7 +16,7 @@ public class Ejer06 {
     if (solucion < 0) {
       System.out.println("El valor de a no puede ser menos de 0");
     } else {
-      System.out.print("El valor de t es: " + solucion + "s²");
+      System.out.print("El valor de t es: " + solucion + "segundos");
     }
   }
 }

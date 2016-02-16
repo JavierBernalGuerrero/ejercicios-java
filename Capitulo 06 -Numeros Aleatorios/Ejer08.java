@@ -18,21 +18,25 @@ public class Ejer08 {
     int contadorLinea = 1;
 
     for (int i = 1; i <= 15; i++) {
-      numeroAleatorio =((int)(Math.random() * 6) + 1);
+      System.out.println();
+      System.out.print("Apuesta linea..... " + contadorLinea++ + " \t ");
       
-      if ((numeroAleatorio >= 1) && (numeroAleatorio <= 3)) {
-        apuesta = "[1| | ]";
-      }
+      for (int e = 1; e <= 3; e++) {
+        numeroAleatorio =((int)(Math.random() * 6) + 1);
+        
+        if ((numeroAleatorio >= 1) && (numeroAleatorio <= 3)) {
+          apuesta = "[1| | ]";
+        }
 
-      if ((numeroAleatorio >= 4) && (numeroAleatorio <= 5)) {
-        apuesta = "[ |X| ]";
-      }
+        if ((numeroAleatorio >= 4) && (numeroAleatorio <= 5)) {
+          apuesta = "[ |X| ]";
+        }
 
-      if (numeroAleatorio == 6) {
-        apuesta = "[ | |2]";
+        if (numeroAleatorio == 6) {
+          apuesta = "[ | |2]";
+        }
+        System.out.print(apuesta + " \t " );
       }
-      
-      System.out.println("Apuesta linea..... " + contadorLinea++ + " \t " + apuesta);
     }
   }
 }

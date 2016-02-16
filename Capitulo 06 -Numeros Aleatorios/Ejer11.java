@@ -45,7 +45,6 @@ public class Ejer11 {
           contadorSobresaliente++;
           break;
         default:
-          break;
       }
       System.out.println(puntuacion);
     } // Fin bucle for

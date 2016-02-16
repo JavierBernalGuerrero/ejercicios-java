@@ -9,7 +9,7 @@
  */
 
 // 1 + 1 = 2
-// a + b = c  | c = a + b
+// a + b = c
 
 // 1 + 2 = 3
 // b + c = a
@@ -20,32 +20,25 @@
 public class Ejer12 {
   public static void main(String[] args) {
 
-    System.out.println("Seria Fibonacci");
+    System.out.println("Serie Fibonacci");
     System.out.println("················");
     System.out.print("¿Cuantos numeros quiere que muestre? ");
     int valorIntroducido = Integer.parseInt(System.console().readLine());
-    int control = 0;
-    int terminoA = 0;
-    int terminoB = 1;
-    int terminoC = 0;
 
-    do {
-      terminoC = terminoA + terminoB;
-      //System.out.printf("%d + %d = %d\n" , terminoA , terminoB , terminoC);
-      System.out.print(terminoC + ", ");
-      
-      terminoA = terminoB + terminoC;
-      //System.out.printf("%d + %d = %d\n" , terminoB , terminoC , terminoA);
-      System.out.print(terminoA + ", ");
-      
-      terminoB = terminoC + terminoA;
-      //System.out.printf("%d + %d = %d\n" , terminoC , terminoA , terminoB);
-      System.out.print(terminoB + ", ");
-      
-      control++;
-      
-    } while (valorIntroducido > control);
-    System.out.print("... ");
+    int valorA = 0;
+    int valorB = 1;
+    int suma = 0;
     
+    if (valorIntroducido == 1) {
+      System.out.print("0");
+    } else {
+      System.out.print(valorA + " ");
+      for (int i = 1; i < valorIntroducido; i++) {
+        System.out.print(valorB + " ");
+        suma = valorA + valorB;
+        valorA = valorB;
+        valorB = suma;
+      }
+    }
   }
 }

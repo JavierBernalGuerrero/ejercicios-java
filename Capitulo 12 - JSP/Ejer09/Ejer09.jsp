@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Ejer09
-    Created on : 25-ene-2016, 18:06:37
-    Author     : Javier
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

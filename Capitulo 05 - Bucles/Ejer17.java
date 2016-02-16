@@ -9,18 +9,23 @@
 public class Ejer17 {
   public static void main(String[] args) {
 
-    System.out.println(" Calculo de numeros primos");
-    System.out.println("···························");
-    System.out.print("Introduce un numero: ");
+    System.out.println(" Calcular numeros");
+    System.out.println("··················");
+    System.out.print("Introduce un numero entero positivo: ");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
     
-    int control = 0;
+    int suma = 0;
     
-    do {
-      System.out.println("Numero: " + numeroIntroducido++);
+    if (numeroIntroducido > 0) {    
+      for (int i = 1; i <= 100; i++) {
+        suma += numeroIntroducido++;
+        
+      }
+      System.out.println("La suma de sus 100 siguientes numeros es " + suma);
       
-      control++;
-    } while (control <= 100);
-    
+    } else {
+      System.out.println("El numero introducido no es positivo");
+      
+    }
   }
 }

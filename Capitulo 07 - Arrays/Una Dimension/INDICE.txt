@@ -24,3 +24,8 @@ Ejercicio 10 -
 *Ejercicio 11 - 
 
 *Ejercicio 12 - 
+
+
+***************************************************************
+Ejemplo de Ordenar Array [Ascendente y Descendente]
+EjerOrdenarArray.java

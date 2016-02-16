@@ -15,7 +15,7 @@ public class Ejer09 {
     int contador = 0;
 
     while (numeroAleatorio != 24) {
-      numeroAleatorio =(int)(Math.random() * 101);
+      numeroAleatorio =(int)(Math.random() * 99);
       
       if (numeroAleatorio % 2 == 0) {
         contador++;

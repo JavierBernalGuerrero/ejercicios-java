@@ -10,10 +10,10 @@
 public class Ejer02 { 
   public static void main(String[] args) {
 
-  System.out.print("Por favor, introduzca la hora: ");
+  System.out.print("Por favor, introduzca la hora (en formato 24h): ");
     int hora = Integer.parseInt(System.console().readLine());
     
-    if ((hora >= 0) && (hora <= 24)) {
+    if ((hora >= 0) && (hora <= 23)) {
       if ((hora >= 6) && (hora <= 12)) {
         System.out.println("¡Buenos dias!");
       }

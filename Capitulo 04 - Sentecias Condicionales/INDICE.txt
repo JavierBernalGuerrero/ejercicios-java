@@ -14,15 +14,15 @@ Ejercicio 07 - Media de 3 notas
 
 Ejercicio 08 - Media de 3 notas mas calificacion (suficiente, matricula, ...)
 
-Ejercicio 09 - Ecuacion de segundo grado
+*Ejercicio 09 - Ecuacion de segundo grado
 
-Ejercicio 10 - Horoscopo
+*Ejercicio 10 - Horoscopo
 
-Ejercicio 11 - Calcular los segundos restantes para la medianoche
+*Ejercicio 11 - Calcular los segundos restantes para la medianoche
 
 Ejercicio 12 - Test 10 preguntas de las asignaturas
 
-Ejercicio 13 - Ordenar 3 numeros enteros introducidos por teclado
+*Ejercicio 13 - Ordenar 3 numeros enteros introducidos por teclado
 
 Ejercicio 14 - Calcular si el numero introducido es par y/o divisible entre 5
 

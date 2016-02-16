@@ -18,13 +18,12 @@
     </style>
   </head>
   <body>
-    <h2 style="text-align: center;">Vamos a crear una piramide. Introduce su altura.</h2>
-    <h3 style="text-align: center;">Minimo 1, Maximo 25.</h3>
+    <h2 style="text-align: center;">Vamos a crear una piramide. Introduce su altura (30 es la altura maxima).</h2>
     <form method="post" action="Ejer09.jsp">
       <fieldset>
         <table style="margin: auto;">
           <tr>
-            <td><input type="number" name="alturaIntroducida" min="1" max="25" placeholder="Altura.."></td>
+            <td><input type="number" name="alturaIntroducida" step="0.1" placeholder="Altura.."></td>
           </tr>
           <tr style="text-align: center;">
             <td><input name="enviarResultado" type="submit" value="Enviar"></td>

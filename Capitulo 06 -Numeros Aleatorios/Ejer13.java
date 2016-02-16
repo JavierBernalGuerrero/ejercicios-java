@@ -17,7 +17,11 @@ public class Ejer13 {
 
     while (dado1 != dado2) {
       dado1 = ((int)(Math.random() * 6) + 1);
+      System.out.print(dado1 + " y ");
+
       dado2 = ((int)(Math.random() * 6) + 1);
+      System.out.println(dado2);
+      
       contador++;
       
     }

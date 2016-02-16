@@ -23,7 +23,7 @@ public class Ejer14 {
     System.out.print("Introduce un numero, te prometo que no miro: ");
     int numeroIntroducido = Integer.parseInt(System.console().readLine());
 
-    for (int i = 1; i <= 5 && esCorrecto != true; i++) {
+    for (int i = 1; i <= 5 && !esCorrecto; i++) {
       numeroAleatorio = ((int)(Math.random() * (rangoMaximo - rangoMinimo)) + rangoMinimo);   //ALGORITMO DE BUSQUEDA
       
       if (numeroIntroducido == numeroAleatorio) {
@@ -44,7 +44,7 @@ public class Ejer14 {
             esCorrecto = true;
           }
         }
-        
+
         if (respuesta.equals ("menor")) {
           if (numeroAleatorio > numeroIntroducido) {
             rangoMaximo = numeroAleatorio - 1;

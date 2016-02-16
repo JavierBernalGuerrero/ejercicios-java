@@ -6,7 +6,7 @@ Ejercicio 03 - Mostrar Palabras en ingles (tabulacion \t)
 
 Ejercicio 04 - Mostrar Horario (tabulacion \t)
 
-Ejercicio 05 - COLORES 
+*Ejercicio 05 - COLORES 
 
 Ejercicio 06 - Piramide 9* rellena
 

@@ -15,22 +15,27 @@ public class Ejer07 {
     int contadorLinea = 1;
 
     for (int i = 1; i <= 15; i++) {
-      numeroAleatorio =((int)(Math.random() * 3) + 1);
+      System.out.println();
+      System.out.print("Apuesta linea..... " + contadorLinea++ + " \t ");
       
-      switch (numeroAleatorio) {
-        case 1:
-          apuesta = "[1| | ]";
-          break;
-        case 2:
-          apuesta = "[ |X| ]";
-          break;
-        case 3:
-          apuesta = "[ | |2]";
-          break;
-        default:
-          break;
+      for (int e = 1; e <= 3; e++) {
+        numeroAleatorio =((int)(Math.random() * 3) + 1);
+      
+        switch (numeroAleatorio) {
+          case 1:
+            apuesta = "[1| | ]";
+            break;
+          case 2:
+            apuesta = "[ |X| ]";
+            break;
+          case 3:
+            apuesta = "[ | |2]";
+            break;
+          default:
+        }
+        System.out.print(apuesta + " \t " );
+
       }
-      System.out.println("Apuesta linea..... " + contadorLinea++ + " \t " + apuesta);
     }
   }
 }

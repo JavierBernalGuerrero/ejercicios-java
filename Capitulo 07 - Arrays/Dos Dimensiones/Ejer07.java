@@ -1,6 +1,8 @@
 /*
  *  Modifica el programa anterior de tal forma que no se repita ningún número 
  * en el array.
+ * 
+ * EJERCICIO COMPLETO EN CARPETA APLICACIONES PROPIAS
  *
  * @author Javier Bernal Guerrero
  */

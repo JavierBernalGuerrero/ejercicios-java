@@ -20,7 +20,7 @@
     System.out.print("Por favor, los minutos: ");
     int valorMin = Integer.parseInt(System.console().readLine());
 
-    if ((valorHora > 0) && (valorHora <= 23)) {
+    if ((valorHora >= 0) && (valorHora <= 23)) {
       if ((valorMin >= 0) && (valorMin < 60)) {
         horas = ((23 - valorHora) * 3600);
     

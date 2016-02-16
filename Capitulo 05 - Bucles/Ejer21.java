@@ -37,10 +37,10 @@ public class Ejer21 {
       contadorNumerico++;
     } 
 
-    System.out.println("··································");
+    System.out.println("····························");
     System.out.println("Numeros Introducidos: " + contadorNumerico);
     System.out.println("Media de numeros impares: " + numeroImpar / contadorMedia);
-    System.out.println("El mayor de los umeros pares: " + numeroPar);
+    System.out.println("El mayor de los numeros pares: " + numeroPar);
 
   }
 }

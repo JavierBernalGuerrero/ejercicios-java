@@ -6,11 +6,6 @@
  * @author Javier Bernal Guerrero
  */
 
-// REVISAR
-
-
-
-
 public class Ejer16 {
   public static void main(String[] args) {
 
@@ -22,19 +17,14 @@ public class Ejer16 {
     int contador = 2;
     int moduloResultado = 1;
     int control = 0;            // 0 número primo, 1 no primo
-
+                                            //  \/ = salta el bucle
     while ((contador < numeroIntroducido) && (control == 0)) {
-      
       moduloResultado = numeroIntroducido % contador++;
 
       if (moduloResultado == 0) {
         control = 1;
         
       }
-
-      contador++;
-      System.out.println(moduloResultado);
-
     }
     
     if (control == 1) {

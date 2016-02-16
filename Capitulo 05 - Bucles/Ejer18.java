@@ -18,20 +18,21 @@ public class Ejer18 {
     int valor2 = Integer.parseInt(System.console().readLine());
     
     if (valor1 > valor2) {
-      System.out.println("El primer numero no puede ser superior al segundo.");
+      int valor3 = valor1;
+      valor1 = valor2;
+      valor2 = valor3;
       
-    } else {
-      
-      if (valor1 == valor2) {
-        System.out.println("Los numeros no pueden ser iguales.");
-      } else {
-        System.out.print(valor1);
-        
-        while (valor1 < valor2) {
-          valor1 = valor1 + 7;
-          System.out.print(" - " + valor1);
+    }
+    if (valor1 == valor2) {
+      System.out.println("Los numeros no pueden ser iguales.");
 
-        }
+    } else {
+      System.out.print(valor1);
+      
+      while ((valor1 < valor2) && ((valor1 + 7) < valor2)) {
+        valor1 = valor1 + 7;
+        System.out.print(" - " + valor1);
+
       }
     }
   }

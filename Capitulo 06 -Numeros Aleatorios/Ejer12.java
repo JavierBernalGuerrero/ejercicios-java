@@ -7,13 +7,15 @@
  */
 
 public class Ejer12 {
-  public static void main(String[] args) {
+  public static void main(String[] args)
+    throws InterruptedException {
+      
     System.out.println(" Matrix");
     System.out.println("········");
     
-    while (0 == 0) {
+    while (true) {
       System.out.print((char)((int)(Math.random() * 95) + 32));
-
+      Thread.sleep(5);
     }
   }
 }

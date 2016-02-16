@@ -49,22 +49,70 @@ public class Ejer08 {
     String blanco = "\033[37m";
     
     for (int m = 0; m < 12; m++) {
-      System.out.printf("\n %s%10s %s|%s", verde, mes[m], naranja, azul);
+      System.out.printf("\n %s%10s | %s", verde, mes[m], blanco);
       
-      if (temperatura[m] < 10) {
-        System.out.print(blanco);
-      } else if (temperatura[m] < 18) {
-        System.out.print(azul);
+      int limteEspacios = 20;  //Se utiliza para organizar la distribucion de barras negativas
+      
+      if (temperatura[m] < 0) {
+        
+        /////////Muestra la parte del grafico con valores negativos//////////
+        
+        temperatura[m] = temperatura[m] * (-1);
+        
+        
+        limteEspacios -= temperatura[m];
+        
+        for (int i = 0; i < limteEspacios; i++) {
+          System.out.print(" ");
+        } //ESPACIOS
+        
+        for (int i = 0; i < temperatura[m]; i++) {
+          System.out.print("▄");
+          Thread.sleep(50);
+          
+        } //Pintar Barras Negativas
+        //System.out.print("| \t\t\t" + temperatura[m] + "ºC");
+        
+        ////////////////////////////////////////////////////////////////////
+        
       } else {
-        System.out.print(rojo);
+        
+        /////////Muestra la parte del grafico con valores positivos////////
+        
+        for (int i = 0; i < limteEspacios; i++) {
+          System.out.print(" ");
+        } //ESPACIOS
+        
+        System.out.print("|" + azul);
+        
+        if ((temperatura[m] < 18) && (temperatura[m] > 0)) {
+          System.out.print(azul);
+        } else {
+          System.out.print(rojo);
+        }
+
+        for (int i = 0; i < temperatura[m]; i++) {
+          System.out.print("▄");
+          Thread.sleep(50);
+            
+        } //Pintar Barras Positivas
+        
+        ////////////////////////////////////////////////////////////////////
+        
+        //System.out.print("\t" + temperatura[m] + "ºC");
+      }
+      /*
+      if (temperatura[m] > 0) {
+        temperatura
       }
       
-      for (int i = 0; i < temperatura[m]; i++) {
-        System.out.print("▄");
-        Thread.sleep(50);
-          
-      } //Pintar Barras
-    }
+      
+      for (int i = 0; i < 30; i++) {
+          System.out.print(" ");
+      } //ESPACIOS
+      */
+      
+    } //Fin Bucle For General
     System.out.print(blanco);
   }
 }
