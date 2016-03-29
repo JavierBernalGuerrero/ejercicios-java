@@ -30,7 +30,7 @@ public class Pizza {
   public Pizza(String tamaño, String tipo) {
     this.tamaño = tamaño;
     this.tipo = tipo;
-    this.estado = "Pedida";
+    this.estado = "pedida";
     setTotalesPedidas(getTotalPedidas() + 1);
   }
 
@@ -66,7 +66,7 @@ public class Pizza {
     this.estado = estado;
   }
   
-  public static void sirve() {
+  public void sirve() {
     if (this.estado.equalsIgnoreCase("pedida")) {
       this.estado = "servida";
       setTotalServidas(getTotalServidas() + 1);
@@ -77,7 +77,7 @@ public class Pizza {
 
   @Override
   public String toString() {
-    return "pizza " + tipo + " " + tamaño + ", " + estado;
+    return "pizza " + tamaño + " " + tipo + ", " + estado;
   }
 
   
