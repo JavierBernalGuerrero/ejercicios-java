@@ -1,5 +1,5 @@
 
-package ejercicios.POO.Ejercicio_5;
+package POO.Ejercicio_5;
 
 public class Pizza {
 
@@ -8,29 +8,12 @@ public class Pizza {
 
   private String tamaño;
   private String tipo;
-  private String estado;
-
-  /*
-  private enum Tamaño {
-    mediana, familiar
-  }
-
-  private enum Tipo {
-    margarita, cuatro_quesos, funghi
-  }
-
-  private enum Estado {
-    pedida, servida
-  }
-  // COMO UTILIZAR LOS ENUMERADOS
-  public Pizza(String tamaño, String tipo) {
-    Tamaño = tamaño;
-  }*/
+  private Estado estado;
 
   public Pizza(String tamaño, String tipo) {
     this.tamaño = tamaño;
     this.tipo = tipo;
-    this.estado = "pedida";
+    this.estado = Estado.pedida;
     setTotalesPedidas(getTotalPedidas() + 1);
   }
 
@@ -57,18 +40,14 @@ public class Pizza {
   public String getTipo() {
     return this.tipo;
   }
-  
-  public String getEstado() {
-    return this.estado;
-  }
-  
-  public void setEstado(String estado) {
+    
+  public void setEstado(Estado estado) {
     this.estado = estado;
   }
   
   public void sirve() {
-    if (this.estado.equalsIgnoreCase("pedida")) {
-      this.estado = "servida";
+    if (this.estado.equals(Estado.pedida)) {
+      this.estado = Estado.servida;
       setTotalServidas(getTotalServidas() + 1);
     } else {
       System.out.println("Esa pizza ya se ha servido");

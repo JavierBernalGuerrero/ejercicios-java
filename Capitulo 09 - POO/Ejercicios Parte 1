@@ -1,0 +1,39 @@
+1.-
+	String Nombre;
+	String Apellido;
+	int edad;
+	String escuderia;
+	String codigoVehiculo;
+
+	PilotoDeFormula1 piloto1 = new PilotoDeFormula1();
+	PilotoDeFormula1 piloto2 = new PilotoDeFormula1();
+ 
+2.-
+	Mineral: pirita, cuarzo, 
+	Animal: pato_lucas,
+		Caballo: pegaso, bucefalo, rocinante
+		Gato: gardfiel, silvestre, tom,
+		Perro: goofy, snoopy, pluto, laika, milu, ayudante_de_santa_claus,
+	Persona: paula, javier
+
+3.-	
+	Vivienda: {
+	  double metrosCuadrados;
+	  int numeroBaños;
+	  String direccion;
+	  
+	}
+
+	Piso: {
+	  String dueño;
+	  int planta;
+	}
+
+	Chalet: {
+	  String dueño;
+	  int numero;
+	  boolean jardin;
+	}
+
+4.-
+

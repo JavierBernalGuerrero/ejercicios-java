@@ -1,5 +1,5 @@
 
-package ejercicios.POO.Ejercicio_5;
+package POO.Ejercicio_5;
 
 /**
  *

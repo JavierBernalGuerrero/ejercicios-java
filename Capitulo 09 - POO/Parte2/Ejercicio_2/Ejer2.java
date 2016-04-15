@@ -1,5 +1,5 @@
 
-package ejercicios.POO.Ejercicio_2;
+package POO.Ejercicio_2;
 
 import java.util.Scanner;
 
