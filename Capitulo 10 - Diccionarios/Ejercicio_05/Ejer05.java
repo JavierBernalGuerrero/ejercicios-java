@@ -1,4 +1,4 @@
-package Diccionarios.Ejercicio_05;
+package proyectos.Diccionarios.Ejercicio_05;
 
 /**
  *

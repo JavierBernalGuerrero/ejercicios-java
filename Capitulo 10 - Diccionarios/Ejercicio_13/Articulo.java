@@ -1,25 +1,23 @@
-package proyectos.Programacion_Orientada_Objeto.Ejercicio_5;
+package proyectos.Diccionarios.Ejercicio_13;
 
 public class Articulo {
   static int capacidadAlmacen = 50;
 
-  private int codigo = -1;
+  private String codigo;
   private String descripcion;
   private int stock;
   private double precioCompra;
   private double precioVenta;
 
-  static int contador = 1; //Contador que enumera el codigo del articulo.
-
-  public Articulo() {
-    this.codigo = contador++;
+  public Articulo() { // Crea articulos aleatorios para ejemplo
+    this.codigo = "z" + (int)((Math.random() * 100) + 1);
     this.stock = (int)((Math.random() * 100) + 1);
     this.precioVenta = (int)((Math.random() * 10) + 1);
     this.descripcion = "";
 
   }
 
-  public Articulo(int codigo, String descripcion, int stock, double precioCompra, double precioVenta) {
+  public Articulo(String codigo, String descripcion, int stock, double precioCompra, double precioVenta) {
     this.codigo = codigo;
     this.descripcion = descripcion;
     this.stock = stock;
@@ -28,11 +26,11 @@ public class Articulo {
 
   }
 
-  public int getCodigo() {
+  public String getCodigo() {
     return codigo;
   }
 
-  public void setCodigo(int codigo) {
+  public void setCodigo(String codigo) {
     this.codigo = codigo;
   }
 
@@ -67,7 +65,7 @@ public class Articulo {
   public void setPrecioVenta(double precioVenta) {
     this.precioVenta = precioVenta;
   }
-
+  
   @Override
   public String toString() {
     return "\nCodigo: " + this.codigo +
@@ -75,6 +73,17 @@ public class Articulo {
       "\nPrecio de venta: " + this.precioVenta +
       "\nPrecio de compra: " + this.precioCompra +
       "\nDescripccion: " + this.descripcion + 
-      "\n===========================";
+      "\n····························";
+  }
+  
+  @Override
+  public boolean equals(Object obj) {
+    if (this.getClass() == obj.getClass()) {
+      Articulo articulo = (Articulo) obj;
+      if ((this.codigo).equals(articulo.getCodigo())) {
+        return true;
+      }
+    }
+    return false;
   }
 }

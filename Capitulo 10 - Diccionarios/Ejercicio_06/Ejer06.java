@@ -1,4 +1,4 @@
-package Diccionarios.Ejercicio_06;
+package proyectos.Diccionarios.Ejercicio_06;
 
 import java.util.HashMap;
 import java.util.Scanner;

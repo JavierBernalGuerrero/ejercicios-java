@@ -32,7 +32,7 @@ public class EjerOrdenarArray {
     }
     num[0] = auxiliar;
     
-    System.out.print("Array Orden Ascendente:  ");
+    System.out.print("Array Orden Ascendente:  "); // Derecha
     for (int i = 0; i < 10; i++) {
       System.out.print(num[i] + " ");
       
@@ -54,7 +54,7 @@ public class EjerOrdenarArray {
     }
     num[9] = auxiliar;
     
-    System.out.print("Array Orden Descendente: ");
+    System.out.print("Array Orden Descendente: "); // Izquierda
       for (int i = 0; i < 10; i++) {
       System.out.print(num[i] + " ");
       

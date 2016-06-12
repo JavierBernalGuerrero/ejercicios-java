@@ -1,4 +1,4 @@
-package Diccionarios.Ejercicio_07;
+package proyectos.Diccionarios.Ejercicio_07;
 
 public class Moneda {
   
