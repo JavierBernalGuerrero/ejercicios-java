@@ -1,0 +1,11 @@
+Ejercicio 01 - Crear un array con objetos (Gato)
+
+Ejercicio 02 - Manipular el array de objetos del ejercicio anterior
+
+*Ejercicio 03 - Coleccion de discos v1
+
+*Ejercicio 04 - Coleccion de discos v2 (Insertar disco, Borrar disco, Modificar disco, Mejorar el listado de discos)
+
+*Ejercicio 05 - GESTISIMAL v1 (GESTIón SIMplificada de Almacén)
+
+

@@ -1,0 +1,68 @@
+Ejercicio 01 - esCapicua
+
+Ejercicio 02 - esPrimo
+
+Ejercicio 03 - siguientePrimo
+
+Ejercicio 04 - potencia
+
+Ejercicio 05 - digitos
+
+Ejercicio 06 - voltea
+
+Ejercicio 07 - digitoN
+
+Ejercicio 08 - posicionDeDigito
+
+Ejercicio 09 - quitaPorDetras
+
+Ejercicio 10 - quitaPorDelante
+
+Ejercicio 11 - pegaPorDetras
+
+Ejercicio 12 - pegaPorDelante
+
+Ejercicio 13 - trozoDeNumero
+
+Ejercicio 14 - juntaNumeros
+
+Ejercicio 15 - digitoN
+
+Ejercicio 16 - Muestra los 1000 primeros numeros primos
+
+Ejercicio 17 - Muestra los 99999 primeros numeros capicuas
+
+Ejercicio 18 - Conversor: Binario - Decimal
+
+Ejercicio 19 - Ampliar el ejercicio 18 añadiendo las bases: decimal, binario, hexadecimal y octal
+
+Ejercicio 20 - generaArrayInt
+
+Ejercicio 21 - minimoArrayInt
+
+Ejercicio 22 - maximoArrayInt
+
+Ejercicio 23 - mediaArrayInt
+
+Ejercicio 24 - estaEnArrayInt
+
+Ejercicio 25 - posicionEnArray
+
+Ejercicio 26 - volteaArrayInt
+
+Ejercicio 27 - rotaDerechaArrayInt
+
+Ejercicio 28 - rotaIzquierdaArrayInt
+
+Ejercicio 29 - generaArrayBiInt
+
+Ejercicio 30 - filaDeArrayBiInt
+
+Ejercicio 31 - columnaDeArrayBiInt
+
+Ejercicio 32 - coordenadasEnArrayBiInt
+
+Ejercicio 33 - esPuntoDeSilla
+
+Ejercicio 34 - diagonal
+

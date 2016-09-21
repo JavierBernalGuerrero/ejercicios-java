@@ -1,0 +1,25 @@
+Ejercicio 01 - Crear y mostrar un ArrayList
+
+Ejercicio 02 - Creacion y manipulacion de ArrayList
+
+*Ejercicio 03 - Ordenacion de un ArrayList (Numeros)
+
+*Ejercicio 04 - Ordenacion de un ArrayList (Palabras)
+
+*Ejercicio 05 - Coleccion de discos v3 (Implementacion de ArrayList)
+
+Ejercicio 06 - Control de area restringida
+
+Ejercicio 07 - Eurocoin
+
+Ejercicio 08 - Escoger 10 cartas de la baraja española sin repetir ninguna
+
+*Ejercicio 09 - Ordenar las cartas escogidas en el programa anterior
+
+Ejercicio 10 - Diccionario español-ingles con HashMap
+
+Ejercicio 11 - Escoger al azar 5 palabras del ejercicio anterior y preguntar al usuario por su correspondiente valor
+
+*Ejercicio 12 - Juego de la Brisca
+
+*Ejercicio 13 - GESTISIMAL v2

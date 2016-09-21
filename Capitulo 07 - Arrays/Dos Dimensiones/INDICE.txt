@@ -1,22 +1,22 @@
 [ARRAYS Bidimensionales]
 ·····································
 
-Ejercicio 01 - 
+Ejercicio 01 - Crear y mostrar un array bidimensional
 
-Ejercicio 02 - 
+Ejercicio 02 - Crear, manipular y mostrar un array bidimensional (Manual)
 
-Ejercicio 03 - 
+Ejercicio 03 - Crear, manipular y mostrar un array bidimensional (Aleatorio)
 
-Ejercicio 04 - 
+Ejercicio 04 - Crear, manipular y mostrar un array bidimensional, tras un tiempo
 
-Ejercicio 05 - 
+Ejercicio 05 - Buscar el mayor y el menor numero en un array bidimensional
 
-Ejercicio 06 - 
+Ejercicio 06 - Crear un array bidimensional sin repetir ningun digito
 
-Ejercicio 07 - 
+Ejercicio 07 - Busca el tesoro
 
-Ejercicio 08 - 
+Ejercicio 08 - Ajedrez. Movimiento de alfil
 
-Ejercicio 09 - 
+Ejercicio 09 - Manipular un array bidimensional con el movimiento de las agujas del reloj
 
-Ejercicio 10 - 
+Ejercicio 10 - Juego de las tres en raya

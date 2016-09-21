@@ -19,11 +19,11 @@ Ejercicio 08 - Temperaturas medias [INTERESANTE]
 
 Ejercicio 09 - Definir como par o impar numeros introducidos por teclado y almacenados dentro de un array
 
-Ejercicio 10 - 
+Ejercicio 10 - Ordenar arrays por numeros pares e impares
 
-*Ejercicio 11 - 
+*Ejercicio 11 - Ordenar arrays por numeros primos
 
-*Ejercicio 12 - 
+*Ejercicio 12 - Ordenar arrays de forma manual rotando los numeros que contienen
 
 
 ***************************************************************

@@ -1,0 +1,11 @@
+Ejercicio 01 - Generar un fichero con los numeros primos comprendidos entre el 1 y el 500
+
+*Ejercicio 02 - Imprimir por pantalla el resultado del programa anterior
+
+*Ejercicio 03 - Barajar el contenido de dos ficheros de texto diferentes creando un nuevo fichero de texot
+
+*Ejercicio 04 - Ordenar alfabéticamente las palabras de un fichero
+
+*Ejercicio 05 - Eliminar los comentarios de un programa
+
+*Ejercicio 06 - Busca en un fichero una palabra introducida y muestra el numero de veces que aparece
